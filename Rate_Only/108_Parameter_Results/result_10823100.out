@@ -1,0 +1,147 @@
+Starting job 10823100 ("10822947.26") on c14-32 at Fri Apr 24 10:50:46 CEST 2015
+Param_ID_26
+running build_ext
+cythoning Yeast_Simulator.pyx to Yeast_Simulator.c
+building 'Yeast_Simulator' extension
+creating build
+creating build/temp.linux-x86_64-2.7
+gcc -DNDEBUG -g -O3 -Wall -Wstrict-prototypes -O3 -fPIC -I/cluster/software/VERSIONS/python_packages-2.7_3/cluster/software/VERSIONS/python2-2.7.9/lib/python2.7/site-packages/numpy/core/include -I/cluster/software/VERSIONS/python2-2.7.9/include/python2.7 -c Yeast_Simulator.c -o build/temp.linux-x86_64-2.7/Yeast_Simulator.o
+icc -shared -L/cluster/software/VERSIONS/intel-2015.1/compiler/lib/intel64 -L/cluster/software/VERSIONS/libffi-3.0.13/lib -L/usr/lib/x86_64-linux-gnu -ipo -O3 build/temp.linux-x86_64-2.7/Yeast_Simulator.o -L/cluster/software/VERSIONS/python2-2.7.9/lib -lpython2.7 -o /work/jobs/10823100.d/Yeast_Simulator.so
+running build_ext
+cythoning Yeast_Simulator_Cell_Division.pyx to Yeast_Simulator_Cell_Division.c
+building 'Yeast_Simulator_Cell_Division' extension
+gcc -DNDEBUG -g -O3 -Wall -Wstrict-prototypes -O3 -fPIC -I/cluster/software/VERSIONS/python_packages-2.7_3/cluster/software/VERSIONS/python2-2.7.9/lib/python2.7/site-packages/numpy/core/include -I/cluster/software/VERSIONS/python2-2.7.9/include/python2.7 -c Yeast_Simulator_Cell_Division.c -o build/temp.linux-x86_64-2.7/Yeast_Simulator_Cell_Division.o
+icc -shared -L/cluster/software/VERSIONS/intel-2015.1/compiler/lib/intel64 -L/cluster/software/VERSIONS/libffi-3.0.13/lib -L/usr/lib/x86_64-linux-gnu -ipo -O3 build/temp.linux-x86_64-2.7/Yeast_Simulator_Cell_Division.o -L/cluster/software/VERSIONS/python2-2.7.9/lib -lpython2.7 -o /work/jobs/10823100.d/Yeast_Simulator_Cell_Division.so
+running build_ext
+cythoning Yeast_Simulator_Subprograms.pyx to Yeast_Simulator_Subprograms.c
+building 'Yeast_Simulator_Subprograms' extension
+gcc -DNDEBUG -g -O3 -Wall -Wstrict-prototypes -O3 -fPIC -I/cluster/software/VERSIONS/python_packages-2.7_3/cluster/software/VERSIONS/python2-2.7.9/lib/python2.7/site-packages/numpy/core/include -I/cluster/software/VERSIONS/python2-2.7.9/include/python2.7 -c Yeast_Simulator_Subprograms.c -o build/temp.linux-x86_64-2.7/Yeast_Simulator_Subprograms.o
+icc -shared -L/cluster/software/VERSIONS/intel-2015.1/compiler/lib/intel64 -L/cluster/software/VERSIONS/libffi-3.0.13/lib -L/usr/lib/x86_64-linux-gnu -ipo -O3 build/temp.linux-x86_64-2.7/Yeast_Simulator_Subprograms.o -L/cluster/software/VERSIONS/python2-2.7.9/lib -lpython2.7 -o /work/jobs/10823100.d/Yeast_Simulator_Subprograms.so
+running build_ext
+cythoning Yeast_Simulator_Mutations.pyx to Yeast_Simulator_Mutations.c
+building 'Yeast_Simulator_Mutations' extension
+gcc -DNDEBUG -g -O3 -Wall -Wstrict-prototypes -O3 -fPIC -I/cluster/software/VERSIONS/python_packages-2.7_3/cluster/software/VERSIONS/python2-2.7.9/lib/python2.7/site-packages/numpy/core/include -I/cluster/software/VERSIONS/python2-2.7.9/include/python2.7 -c Yeast_Simulator_Mutations.c -o build/temp.linux-x86_64-2.7/Yeast_Simulator_Mutations.o
+icc -shared -L/cluster/software/VERSIONS/intel-2015.1/compiler/lib/intel64 -L/cluster/software/VERSIONS/libffi-3.0.13/lib -L/usr/lib/x86_64-linux-gnu -ipo -O3 build/temp.linux-x86_64-2.7/Yeast_Simulator_Mutations.o -L/cluster/software/VERSIONS/python2-2.7.9/lib -lpython2.7 -o /work/jobs/10823100.d/Yeast_Simulator_Mutations.so
+running build_ext
+cythoning Yeast_Simulator_Gene_Duplications.pyx to Yeast_Simulator_Gene_Duplications.c
+building 'Yeast_Simulator_Gene_Duplications' extension
+gcc -DNDEBUG -g -O3 -Wall -Wstrict-prototypes -O3 -fPIC -I/cluster/software/VERSIONS/python_packages-2.7_3/cluster/software/VERSIONS/python2-2.7.9/lib/python2.7/site-packages/numpy/core/include -I/cluster/software/VERSIONS/python2-2.7.9/include/python2.7 -c Yeast_Simulator_Gene_Duplications.c -o build/temp.linux-x86_64-2.7/Yeast_Simulator_Gene_Duplications.o
+icc -shared -L/cluster/software/VERSIONS/intel-2015.1/compiler/lib/intel64 -L/cluster/software/VERSIONS/libffi-3.0.13/lib -L/usr/lib/x86_64-linux-gnu -ipo -O3 build/temp.linux-x86_64-2.7/Yeast_Simulator_Gene_Duplications.o -L/cluster/software/VERSIONS/python2-2.7.9/lib -lpython2.7 -o /work/jobs/10823100.d/Yeast_Simulator_Gene_Duplications.so
+Param: 26 	0.0039 	2.0 	27.5 	65.0 	3.4
+0 	805 	Lag
+0 	163 	Rate
+1 	805.0 	Lag
+1 	162.998053438 	Rate
+2 	805.0 	Lag
+2 	162.994829687 	Rate
+3 	805.0 	Lag
+3 	162.98989625 	Rate
+4 	805.0 	Lag
+4 	162.979274062 	Rate
+5 	805.0 	Lag
+5 	162.966181875 	Rate
+6 	805.0 	Lag
+6 	162.932876875 	Rate
+7 	805.0 	Lag
+7 	162.886564687 	Rate
+8 	805.0 	Lag
+8 	162.731212812 	Rate
+9 	805.0 	Lag
+9 	162.4785 	Rate
+10 	805.0 	Lag
+10 	161.664566875 	Rate
+11 	805.0 	Lag
+11 	159.803719375 	Rate
+12 	805.0 	Lag
+12 	156.683927813 	Rate
+13 	805.0 	Lag
+13 	146.751855 	Rate
+14 	805.0 	Lag
+14 	146.370792813 	Rate
+15 	805.0 	Lag
+15 	137.773857813 	Rate
+16 	805.0 	Lag
+16 	133.635513438 	Rate
+17 	805.0 	Lag
+17 	131.651720937 	Rate
+18 	805.0 	Lag
+18 	130.49008375 	Rate
+19 	805.0 	Lag
+19 	128.959874063 	Rate
+20 	805.0 	Lag
+20 	128.541463437 	Rate
+21 	805.0 	Lag
+21 	128.355585625 	Rate
+22 	805.0 	Lag
+22 	128.257444375 	Rate
+23 	805.0 	Lag
+23 	128.072218125 	Rate
+24 	805.0 	Lag
+24 	127.638229375 	Rate
+25 	805.0 	Lag
+25 	127.606137187 	Rate
+26 	805.0 	Lag
+26 	127.589107188 	Rate
+27 	805.0 	Lag
+27 	127.50824625 	Rate
+28 	805.0 	Lag
+28 	127.506390938 	Rate
+29 	805.0 	Lag
+29 	127.296964375 	Rate
+30 	805.0 	Lag
+30 	127.286715 	Rate
+31 	805.0 	Lag
+31 	127.27597375 	Rate
+32 	805.0 	Lag
+32 	127.250465312 	Rate
+33 	805.0 	Lag
+33 	127.24953125 	Rate
+34 	805.0 	Lag
+34 	127.245156563 	Rate
+35 	805.0 	Lag
+35 	127.136323125 	Rate
+36 	805.0 	Lag
+36 	127.128064688 	Rate
+37 	805.0 	Lag
+37 	127.126920938 	Rate
+38 	805.0 	Lag
+38 	127.124995625 	Rate
+39 	805.0 	Lag
+39 	127.124248438 	Rate
+40 	805.0 	Lag
+40 	127.065088437 	Rate
+41 	805.0 	Lag
+41 	127.061724375 	Rate
+42 	805.0 	Lag
+42 	127.0578475 	Rate
+43 	805.0 	Lag
+43 	127.056974375 	Rate
+44 	805.0 	Lag
+44 	127.057473125 	Rate
+45 	805.0 	Lag
+45 	127.032368437 	Rate
+46 	805.0 	Lag
+46 	127.029023125 	Rate
+47 	805.0 	Lag
+47 	127.02923875 	Rate
+48 	805.0 	Lag
+48 	127.031778125 	Rate
+49 	805.0 	Lag
+49 	127.029724688 	Rate
+50 	805.0 	Lag
+50 	127.027920313 	Rate
+
+Currently Loaded Modulefiles:
+  1) intel/2015.1    2) libffi/3.0.13   3) python2/2.7.9
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+10823100.ba+   8970552K   8459756K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+10823100     10822947.+          1                         00:41:06      0:0 
+
+Job 10823100 ("10822947.26") completed on c14-32 at Fri Apr 24 11:31:50 CEST 2015
